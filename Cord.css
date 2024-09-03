@@ -18,9 +18,10 @@ header {
   margin: 0 auto;
 }
 
-.a {
+a {
   text-align: right;
-  padding: 30px;
+  margin-top: 20px;
+  display: block;
 }
 
 .contact {
@@ -72,19 +73,25 @@ h1 {
 .news {
   background-color: #e3f2fd;
   height: 200px;
+  padding-bottom: 50px;
+}
+
+.news .inner {
   display: flex;
 }
 
 .news img {
-  width: 200px;
+  width: 250px;
   height: 180px;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .news h2 {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 
 .news p {

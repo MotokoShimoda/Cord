@@ -1,0 +1,24 @@
+@media screen and (max-width: 1199px) {
+  .keyvisual {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .keyvisual {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .keyvisual h1 {
+    font-size: 40px;
+  }
+  .keyvisual h2 {
+    font-size: 30px;
+  }
+}
