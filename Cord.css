@@ -23,7 +23,6 @@ a {
   margin-top: 20px;
   display: block;
 }
-
 .contact {
   float: right;
   font-size: 17px;
@@ -37,7 +36,13 @@ a {
   text-decoration: none;
   text-align: center;
 }
-
+.menu-icon {
+  color: #777;
+  float: right;
+  font-size: 25px;
+  padding: 20px 0;
+  display: none !important;
+}
 .fas {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -222,4 +227,100 @@ footer p {
   letter-spacing: 0.5px;
   text-align: right;
   padding-right: 10px;
+}
+
+@media (max-width: 1199px) {
+  * {
+    box-sizing: border-box;
+  }
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fa {
+    display: none;
+  }
+  .keyvisual {
+    background-size: cover;
+  }
+  h1 {
+    padding-top: 250px;
+  }
+  .keyvisual h2 {
+    padding-bottom: 250px;
+  }
+  .news .inner {
+    display: block;
+  }
+  .news {
+    height: 400px;
+  }
+  .news p {
+    padding-bottom: 50px;
+  }
+  .news img {
+    display: block;
+    margin: 0 auto;
+  }
+  ul {
+    display: block;
+  }
+  li {
+    display: -webkit-box;
+    -webkit-box-align: center;
+  }
+  li a {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact {
+    display: none;
+  }
+  .fa {
+    display: block !important;
+    text-align: right;
+  }
+  .keyvisual h1 {
+    font-size: 40px;
+    padding-top: 200px;
+  }
+  .keyvisual h2 {
+    font-size: 30px;
+    padding-bottom: 200px;
+  }
+  .news {
+    height: 400px;
+  }
+  ul {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  li {
+    display: -webkit-box;
+    -webkit-box-align: center;
+  }
+  li a {
+    display: block;
+  }
+  th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  td {
+    font-size: 12px;
+  }
+  .sns {
+    padding: 50px 15px;
+    width: 100%;
+  }
 }

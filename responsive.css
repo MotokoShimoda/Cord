@@ -1,4 +1,4 @@
-@media screen and (max-width: 1199px) {
+@media (max-width: 1199px) {
   .keyvisual {
     padding-top: 250px;
     padding-bottom: 250px;
@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .keyvisual {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -20,5 +20,12 @@
   }
   .keyvisual h2 {
     font-size: 30px;
+  }
+  th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  td {
+    font-size: 12px;
   }
 }
