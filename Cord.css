@@ -230,15 +230,15 @@ footer p {
 }
 
 @media (max-width: 1199px) {
-  * {
-    box-sizing: border-box;
-  }
   .inner {
     width: 100%;
     margin: 0 auto;
   }
   .fa {
     display: none;
+  }
+  a {
+    margin-bottom: 20px;
   }
   .keyvisual {
     background-size: cover;
@@ -263,14 +263,20 @@ footer p {
     margin: 0 auto;
   }
   ul {
-    display: block;
-  }
-  li {
-    display: -webkit-box;
-    -webkit-box-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
   }
   li a {
     display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .graph {
+    margin-bottom: 50px;
+  }
+  .skills img {
+    margin: 0;
   }
 }
 
@@ -300,10 +306,15 @@ footer p {
   .news {
     height: 400px;
   }
+  .news img {
+    text-align: center;
+  }
   ul {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
   }
   li {
     display: -webkit-box;
@@ -311,6 +322,9 @@ footer p {
   }
   li a {
     display: block;
+  }
+  .graph {
+    margin-bottom: 50px;
   }
   th {
     font-size: 14px;
@@ -320,6 +334,7 @@ footer p {
     font-size: 12px;
   }
   .sns {
+    flex-direction: column;
     padding: 50px 15px;
     width: 100%;
   }
