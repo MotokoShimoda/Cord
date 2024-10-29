@@ -78,6 +78,7 @@ h1 {
 
 .keyvisual {
   background-image: url(https://github.com/FullStackTeacher/lp-practice/blob/main/images/keyvisual/keyvisual.jpg?raw=true);
+  background-size: cover;
 }
 
 .news {
