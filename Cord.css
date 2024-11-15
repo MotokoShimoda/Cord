@@ -172,7 +172,6 @@ td {
   line-height: 26px;
   height: 50px;
   width: 250px;
-
   border: 2px solid #fff;
 }
 
@@ -271,13 +270,22 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
+  }
+  li {
+    display: -webkit-box;
+    -webkit-box-align: center;
   }
   li a {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 0;
   }
   .graph {
+    margin-bottom: 50px;
+  }
+  .calender {
     margin-bottom: 50px;
   }
   .skills img {
@@ -329,6 +337,7 @@ footer p {
   }
   li a {
     display: block;
+    line-height: 0;
   }
   .graph {
     margin-bottom: 50px;
